@@ -1,0 +1,47 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #EDDACC !important;
+}
+
+a {
+  color: #00B7FF;
+}
+ul li {
+    background-color: beige;
+    border-radius: 50px;
+    list-style: none;
+}
+#bgImg {
+    background-image: url(../images/img.jpg);
+    height: 500px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+ul.mar a {
+    color: #A7626E;
+    font-size: 23px;
+    font-weight: bold;
+    border-right: 2px double;
+    text-align: center;
+    padding-right: 14px;
+    padding-left: 14px;
+}
+ul.mar a:hover {
+    color: #EA526F;
+
+}
+ul.movieList li a {
+    text-decoration: none;
+    color: #A7626E;
+}
+ul.movieList li a:hover {
+    color: #EA526F;
+
+}
+footer {
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
+}

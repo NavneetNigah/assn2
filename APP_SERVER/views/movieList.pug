@@ -1,0 +1,11 @@
+extends layout
+
+block content
+ h1= title
+ h2 Explore the latest added movies :
+ ul.movieList
+  each movie in movies
+   li
+    a(href='/display')
+        h3  #{movie.name}
+        h5  #{movie.genre}
